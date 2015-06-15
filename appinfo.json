@@ -1,0 +1,57 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Peka",
+    "longName": "Kanji Face",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/kanji.png",
+                "menuIcon": true,
+                "name": "IMAGE_KANJI",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9: ]",
+                "file": "fonts/Squared_number_mirror.otf",
+                "name": "FONT_SQR_NUM_MIRROR_34",
+                "trackingAdjust": 4,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9: ]",
+                "file": "fonts/Squared_number_mirror.otf",
+                "name": "FONT_SQR_NUM_MIRROR_70",
+                "trackingAdjust": 6,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9: ]",
+                "file": "fonts/Squared_number.otf",
+                "name": "FONT_SQR_NUM_34",
+                "trackingAdjust": 4,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9: ]",
+                "file": "fonts/Squared_number.otf",
+                "name": "FONT_SQR_NUM_70",
+                "trackingAdjust": 6,
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Kanji Face",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "759f3079-e975-4ece-98d2-760a4dbf8f34",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
